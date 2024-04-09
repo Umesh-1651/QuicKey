@@ -60,7 +60,6 @@ if(isset($_POST['login'])){
 // include("connection.php");
 //     $username=null;
 //     $username_err=null;
-//     $ok = null;
 //     $pass=null;
 //     $pass_err=null;
 
