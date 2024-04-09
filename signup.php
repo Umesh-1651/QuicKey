@@ -37,18 +37,6 @@ $email = $_POST['email'];
         ?><style>#message{display:block}</style><?php
    
 } else {
-    // // Insert data into database if all validations pass
-    // $error_msg=null;
-    // $hashedpass = password_hash($passwd, PASSWORD_DEFAULT);
-    // $query = "INSERT INTO users (uid, uname, pass, email) VALUES (default, '$username', '$hashedpass', '$email')";
-    // $result = mysqli_query($con, $query);
-    // if(!$result){
-    //     $error_msg = "Username or Email is already taken, Please try another.";
-    /*     ?><style>#message{display:block}</style><?php */
-    // }
-    // header("Location: index.php");
-    // die;
-
     try {
         // Your SQL query to insert or update data
         // For example, inserting a new user with unique email and username
